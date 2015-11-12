@@ -1,4 +1,4 @@
-FROM oma/nodejs_new
+FROM registry.esav.fi/nodejs_new
 
 RUN git clone https://github.com/varesa/temperature_server.git
 WORKDIR temperature_server
