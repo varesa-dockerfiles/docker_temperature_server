@@ -1,4 +1,4 @@
-FROM registry.esav.fi/nodejs_new
+FROM registry.esav.fi:5000/nodejs_new
 
 ENV USER=temperature_server
 
